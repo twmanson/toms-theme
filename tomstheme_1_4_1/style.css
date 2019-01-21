@@ -1,0 +1,165 @@
+/*
+Theme Name: Tom Manson's Theme
+Author: Tom Manson
+Author URI: http://tricksfresno.com
+Version: 1.41
+*/
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "europa";
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1  h3 h4 h5 h6 {
+  font-weight: 300;
+}
+
+/* Header Styles */
+header {
+  margin: 0 auto;
+}
+
+header #masthead {
+  margin: 0 -20px 0 auto;
+  letter-spacing: 20px;
+  font-family: "nimbus-sans-condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+}
+
+header #masthead a {
+  color: inherit;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header .site-description {
+
+}
+
+/* Site Navigation Menus */
+nav {
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+/* Top Navigation Menu Specific Styles */
+#primary-nav {
+  width: 100%;
+  max-width: inherit;
+}
+
+#primary-nav li {
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Footer Navigation Menu Specific Styles */
+nav#footer-nav li{
+  font-size: .85em;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+
+/* Hyperlink Styles */
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #000;
+}
+
+li:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Main Content Layout */
+#main-content {
+  margin: 20px auto 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid #777;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+#main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main-content p {
+}
+
+#main-content a:link,
+#main-content a:visited {
+	color: #FE7821;
+}
+
+.post h1 {
+  font-size: 2em;
+}
+
+/* Extra fancies for jQuery selectors */
+.is-hidden {
+  display: none;
+}
+
+/* Makes Tricks Orange Happen */
+.orange {
+  color: #FE7821;
+}
+
+.orange-bg {
+  background-color: #FE7821;
+  color: white;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #FE7821;
+}
+
+.looks-like-masthead {
+  letter-spacing: 10px;
+  font-family: "nimbus-sans-condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+}
+
+.wpforms-confirmation-container-full {
+  background-color: #FFF;
+  color: #FE7821;
+  border: none;
+  font-size: .85em;
+  width: 80%
+  margin: 0 auto;
+}
